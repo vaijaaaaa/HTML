@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms two</title>
+    <style>
+        body{
+           background-color: rgb(97, 94, 94); 
+        }
+    </style>
+</head>
+<body>
+    <h1>Forms in HTML</h1>
+    <form action="url" method="GET" autocomplete="on">
+        <label for="fname">First Name</label><br>
+        <input type="text" placeholder="First Name" name="" id=""><br>
+        <label for="Lname">Last Name</label><br>
+        <input type="text" placeholder="Last Name" name="" id="">
+        <br>
+        <button type="submit">sumbit</button>
+    </form>
+    <!-- Form which will send a GET request to the current URL -->
+<form method="get">
+    <label>
+      Name:
+      <input name="submitted-name" autocomplete="name" />
+    </label>
+    <input type="reset" value="reset">
+    <input type="week" name="" id="">
+    <input type="email" name="" id="">
+
+    <select name="editors" id="">
+        <option value="vscode">vscode</option>
+        <option value="subline">subline</option>
+    </select>
+
+    <input list="editors" name ="editor">
+    <datalist id="editors">
+        <input type="hidden">
+        <option value="vscode">vscode</option>
+        <option value="subline">subline</option>
+    </datalist>
+
+
+
+    <button type="submit">sumbit</button>
+  </form>
+  
+  <p>Audio settings:</p>
+
+  
+    <input type="range" id="volume" name="volume" min="0" max="11" />
+    <label for="volume">Volume</label>
+  
+  
+  
+    <input type="range" id="cowbell" name="cowbell" min="0" max="100" value="90" step="10" />
+    <label for="cowbell">Cowbell</label>
+  
+  
+    
+</body>
+</html>
